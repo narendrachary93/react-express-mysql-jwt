@@ -1,0 +1,38 @@
+{
+  "name": "react-express-mysql-jwt",
+  "version": "1.0.0",
+  "description": "template for react-express-mysql-jwt",
+  "scripts": {
+    "server": "node app.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"nodemon app.js\" \"npm run client\"",
+    "start": "node app.js",
+    "add": "npm i && (cd client && npm i)"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "~1.19.0",
+    "concurrently": "^5.1.0",
+    "cookie-parser": "~1.4.3",
+    "express": "~4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.2.2",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.2",
+    "react-router-dom": "^5.1.2",
+    "sequelize": "^5.21.5",
+    "sequelize-cli": "^5.5.1",
+    "uuid": "^7.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narendrachary93/react-express-mysql-jwt.git"
+  },
+  "author": "Narendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narendrachary93/react-express-mysql-jwt/issues"
+  },
+  "homepage": "https://github.com/narendrachary93/react-express-mysql-jwt#readme"
+}
